@@ -2,7 +2,7 @@
 
 Summary:	MATLAB compatible high-level functions for HDF5 file I/O
 Name:		octave-hdf5oct
-Version:	1.0.0
+Version:	1.1.0
 Release:	1
 License:	LGPLv3+
 Group:		Sciences/Mathematics
@@ -33,7 +33,7 @@ MATLAB compatible high-level functions for HDF5 file I/O.
 #---------------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n %{octpkg}-%{version}
+%autosetup -p1 -n hdf5oct-1.1.0
 
 %build
 %set_build_flags
